@@ -1,0 +1,21 @@
+.narvbar-container{
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: red;
+}
+
+.logo {
+    margin-left:2%;
+}
+
+.basket-login{
+    margin-right:2%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}

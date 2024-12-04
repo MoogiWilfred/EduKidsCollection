@@ -1,0 +1,14 @@
+.header-container{
+    width: 100%;
+    margin: 0 auto; 
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-image  {
+  height: 400px;
+    
+}
