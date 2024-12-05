@@ -55,3 +55,25 @@ border-radius: 15px 15px 0px 0px;
     font-weight:500;
     margin:10px 0px;
 }
+
+.remove-add{
+    display:flex
+}
+
+.remove img{
+    height:30px;
+    width:30px;
+}
+    
+
+
+.add-white img{
+    height:30px;
+    width:30px;
+}
+
+
+.add-green img{
+    height:30px;
+    width:30px;
+}
