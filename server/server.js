@@ -19,7 +19,6 @@ app.use(cors())
 //api endpoints
 
 app.use('/api/item', itemRouter)
-app.use('/api/item', itemRouter)
 app.use("/images", express.static("uploads"))
 
 app.listen(port,()=>

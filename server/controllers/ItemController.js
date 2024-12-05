@@ -12,7 +12,7 @@ const addItem = async (req, res) => {
             description: req.body.description,
             price: req.body.price,
             category: req.body.category,
-            image: req.file.path.replace(/\\/g, "/") // Ensure forward slashes for URLs
+            image: req.file.filename.replace(/\\/g, "/") // Ensure forward slashes for URLs
         });
 
         await item.save();

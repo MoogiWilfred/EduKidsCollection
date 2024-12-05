@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import './main.css';
 import axios from 'axios';
 
+
 function Main() {
   const url = 'http://localhost:4000'; // Base URL for your backend server
 
@@ -26,8 +27,8 @@ function Main() {
         <div key={index} className="main-item">
           {/* Image Path Construction */}
           <img
-            src={`${url}/${item.image.replace(/\\/g, '/')}`}
-            alt={item.name}
+            src={`${url}/images/${item.image}`} alt={item.name}
+          
           />
           <div className="info">
             <p className="left">{item.name}</p>
