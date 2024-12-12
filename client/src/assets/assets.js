@@ -10,7 +10,8 @@ import home_icon from './home_logo..webp'
 
 import header_1 from './H1.jpg'
 import header_2 from './H2.jpg'
-
+import header_3 from './H3.jpg'
+import header_4 from './H4.png'
 
 
 export const assets={
@@ -24,7 +25,9 @@ export const assets={
   profile_icon,
   home_icon,
   header_1,
-  header_2
+  header_2,
+  header_3,
+  header_4
 }
 
 
