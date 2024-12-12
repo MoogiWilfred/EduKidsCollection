@@ -4,7 +4,7 @@ import axios from 'axios';
 export const StoreContex = createContext();
 
 function StoreContextProvider(props) {
-  const url = "http://localhost:4000";
+  const url = "https://edukidscollection.onrender.com";
 
   const [listitem, setListItem] = useState([]); // Ensure it's initialized as an array
   const [cartItem, setCartItem] = useState({});
