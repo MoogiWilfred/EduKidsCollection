@@ -129,7 +129,7 @@
 
 
 span{
-    font-size:200%;
+    font-size:40px;
   }
   
   /* Letter Colors */
@@ -162,7 +162,7 @@ span{
   }
 
   .info p span{
-    font-size:150%;
+    font-size:20px;
     text-align: center;
 
   }
@@ -171,4 +171,32 @@ span{
     text-align: center;
     display:flex;
     justify-content:center;
+  }
+
+
+ 
+
+  
+
+
+  @media (max-width: 350px) {
+    span{
+      font-size:10px;
+    }
+    
+  .info p span{
+    font-size:10px;
+    text-align: center;
+
+  }}
+
+  
+
+  @media (max-width: 745px) {
+    span{
+      font-size:20px;
+    }
+    
+ 
+
   }

@@ -28,7 +28,7 @@
   }
 
 
-  span{
+  .narvbar-container h1 span {
     font-size:200%;
   }
   
@@ -62,4 +62,20 @@
   }
 
 
- 
+  @media (max-width: 400px) {
+
+    .narvbar-container {
+      padding: 1px 1px; 
+    }
+    
+    
+    .narvbar-container h1 span{
+      font-size:100%;
+    }
+
+    .basket-login {
+      
+      gap: 5px;
+    }
+    
+  }
