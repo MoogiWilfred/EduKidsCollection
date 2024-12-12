@@ -2,7 +2,7 @@ import React, { useContext, useState } from 'react';
 import './main.css';
 import {StoreContex} from '../context/storecontext';
 import CategoryA from '../itemCategory/categoryAItems';
-import CategoryB from '../itemCategory/categoryBitems';
+import CategoryB from '../itemCategory/categoryBItems';
 
 
 
