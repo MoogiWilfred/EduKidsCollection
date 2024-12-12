@@ -1,5 +1,5 @@
 .header-container{
-    width: 100%;
+    max-width: 1000px;
     margin: 0 auto; 
     overflow: hidden;
     position: relative;
@@ -10,5 +10,5 @@
 
 .popup-image  {
   height: 400px;
-    
+    width:100%;
 }

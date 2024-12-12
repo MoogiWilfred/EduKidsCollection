@@ -1,21 +1,65 @@
-.narvbar-container{
+.narvbar-container {
     width: 100%;
-    padding: 20px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: red;
-}
-
-.logo {
-    margin-left:2%;
-}
-
-.basket-login{
-    margin-right:2%;
-    display:flex;
+    background-color: #333; 
+    position: sticky; 
+    top: 0px; 
+    z-index: 900;
+    padding: 10px 20px;
+    height: 14vh;
+    
+  }
+  
+  /* Logo Image */
+  .logo img {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+  }
+  
+  /* Basket and Login */
+  .basket-login {
+    display: flex;
     justify-content: space-between;
     align-items: center;
-    
+    gap: 20px;
+  }
 
-}
+
+  span{
+    font-size:200%;
+  }
+  
+  /* Letter Colors */
+  .e {
+    color: #4285F4;
+  }
+  
+  .d1 {
+    color: #EA4335;
+  }
+  
+  .u {
+    color: #FBBC05;
+  }
+  
+  .k {
+    color: #34A853;
+  }
+  
+  .i {
+    color: #F4B400;
+  }
+  
+  .d {
+    color: #9C27B0;
+  }
+  
+  .s {
+    color: #FF6F61;
+  }
+
+
+ 
