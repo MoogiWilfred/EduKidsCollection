@@ -14,7 +14,8 @@ html,body{
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  overflow-x: hidden; /* Ensures no horizontal scroll */
+  overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 a{
