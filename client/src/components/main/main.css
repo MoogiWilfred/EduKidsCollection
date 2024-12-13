@@ -39,23 +39,12 @@
     
   }
   
-  .food-display-list > * {
-    flex: 1 1 180px;
-    max-width: 180px;
-    
-    
-
-  }
+  
 
 
   /* Mobile Devices */
-@media (max-width: 407px) {
+@media (max-width: 768px) {
  
-  .food-display-list  * {
-    max-width: 80px;
-   
-  }
-
   .category p{
     margin-left:5px;
     font-size: 1em; 
