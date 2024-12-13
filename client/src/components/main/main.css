@@ -21,8 +21,6 @@
   display:flex;
   color:white;
   border-radius:5px 5px 0 0 ;
-  
- 
   align-items: center;
  }
  .category p{
@@ -49,18 +47,20 @@
 
   }
 
-  
-  
-
 
   /* Mobile Devices */
 @media (max-width: 407px) {
  
   .food-display-list  * {
-    flex: 1 1 80px;
     max-width: 80px;
    
   }
+
+  .category p{
+    margin-left:5px;
+    font-size: 1em; 
+     }
+    
  
 }
 
