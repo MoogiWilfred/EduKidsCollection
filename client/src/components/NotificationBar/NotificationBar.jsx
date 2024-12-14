@@ -23,11 +23,11 @@ function NotificationBar() {
   <div class="popup-message">🎉 New arrivals are here! Check them out!</div>
 </div>*/}
 
-<div class="bm-pl">
+<div className="bm-pl">
     
-	<div class="bm-pl__blob bm-pl__blob--r"></div>
-	<div class="bm-pl__blob bm-pl__blob--g"></div>
-	<div class="bm-pl__blob bm-pl__blob--b"></div>
+	<div className="bm-pl__blob bm-pl__blob--r"></div>
+	<div className="bm-pl__blob bm-pl__blob--g"></div>
+	<div className="bm-pl__blob bm-pl__blob--b"></div>
 
 </div>
 

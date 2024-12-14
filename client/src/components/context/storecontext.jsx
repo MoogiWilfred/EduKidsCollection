@@ -14,7 +14,6 @@ function StoreContextProvider(props) {
     const fetchListItem = async () => {
       try {
         const response = await axios.get(url + "/api/item/get");
-        console.log('API Response:', response.data.data);
         const items = Array.isArray(response.data.data) ? response.data.data : [];
         setListItem(items);
       } catch (error) {
