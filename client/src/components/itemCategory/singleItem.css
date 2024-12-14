@@ -1,4 +1,4 @@
-.food-item{
+.item{
     width:200px;
     margin:auto;
     border-radius: 5px;
@@ -11,52 +11,52 @@
    display:flex;
 }
 
-.food-item:hover{
+.item:hover{
     box-shadow: 0px 0px 15px black;
 
 }
 
-.food-item-img{
+.item-img{
     width:200px;
     border-radius: 5px 5px 0px 0px;
     height: 150px;
 }
 
-.food-item-img img{
+.item-img img{
 width:100%
 }
-.food-item-info{
+.item-info{
     padding: 10px;
 }
-.food-item-name-rating{
+.item-name-rating{
     display:flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 1px;
 }
-.food-item-name-rating p{
+.item-name-rating p{
     font-size: 15px;
     font-weight: 500;
 }
-.food-item-name-rating img{
+.item-name-rating img{
     width: 50px;
 }
 
-.food-item-desc{
+.item-desc{
     color: #676767;
     font-size: 12px;
 }
-.food-item-price{
+.item-price{
     color: tomato;
     font-size:15px;
     font-weight:500px;
     margin:10px 0px;
 }
 
-.food-item-img-container{
+.item-img-container{
    position: relative; 
 }
-.food-item-img-container .add{
+.item-img-container .add{
     width: 25px;
     position: absolute;
     bottom: 50%;
@@ -65,7 +65,7 @@ width:100%
     border-radius: 50%;
 
 }
-.food-item-counter{
+.item-counter{
     position: absolute;
     bottom: 50%;
     right: 15px;
@@ -76,60 +76,60 @@ width:100%
     border-radius: 50px;
     background-color: white;
 }
-.food-item-counter img{
+.item-counter img{
     width: 20px;
 }
 
 
 @media(max-width:404px){
     
-    .food-item-info{
+    .item-info{
         padding: 2px;
         margin-top: 0px;
     }
 
-    .food-item-name-rating{
+    .item-name-rating{
         margin-bottom: 5px;
     }
-    .food-item-name-rating p{
+    .item-name-rating p{
         font-size: 10px;
         font-weight: 500px;
     }
-    .food-item-name-rating img{
+    .item-name-rating img{
         width: 30px;
     }
     
-    .food-item-desc{
+    .item-desc{
         color: #676767;
         font-size: 10px;
     }
-    .food-item-price{
+    .item-price{
         color: tomato;
         font-size:10px;
         font-weight:500;
         margin:10px 0px;
     }
-    .food-item-img-container .add{
+    .item-img-container .add{
         width: 20px;
         right: 5px;
     }
-    .food-item-counter{
+    .item-counter{
         right: 1px;
         padding: 1px;  
     }
 
-    .food-item-counter img{
+    .item-counter img{
         width: 10px;
     }
-    .food-item-counter p{
+    .item-counter p{
         font-size:10px;
     }
-    .food-item{
+    .item{
         width:150px;
         height: 200px;
         
     }
-    .food-item-img{
+    .item-img{
         width:150px;
         height: 100px;
     

@@ -8,10 +8,10 @@ const categoryBItems = ({ id, name, price, description, image }) => {
   const { cartItem, addItemToCart, removeItemFromCart, url } =useContext(StoreContex);
 
   return (
-    <div className="food-item">
-      <div className="food-item-img-container">
+    <div className="item">
+      <div className="item-img-container">
         <img
-          className="food-item-img"
+          className="item-img"
         
           src={`${url}/images/${image}`} alt={name}/>
         
@@ -23,7 +23,7 @@ const categoryBItems = ({ id, name, price, description, image }) => {
             alt=""
           />
         ) : (
-          <div className="food-item-counter">
+          <div className="item-counter">
             <img
               onClick={() => removeItemFromCart(id)}
               src={assets.remove_icon_red}
@@ -37,13 +37,13 @@ const categoryBItems = ({ id, name, price, description, image }) => {
             />
           </div>
         )}
-        <div className="food-item-info">
+        <div className="item-info">
           <div className="food-item-name-rating">
             <p>{name}</p>
             <img src={assets.rating_stars} alt=""></img>
           </div>
-          <p className="food-item-desc">{description}</p>
-          <p className="food-item-price"> KSH.{price}</p>
+          <p className="item-desc">{description}</p>
+          <p className="item-price"> KSH.{price}</p>
         </div>
       </div>
     </div>
