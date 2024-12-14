@@ -30,7 +30,7 @@ function footer() {
       
       <div className="footer-copyright">    
   <p>
-        Copyright 2024 @ edukids.com - All Rights Reserved.
+  &copy; {new Date().getFullYear()} edukids.com - All Rights Reserved.
       </p>
       </div>
     </div>
