@@ -22,4 +22,12 @@
 
 .footer-container p{
     font-size:1.25rem;
+ 
+}
+
+
+@media (max-width:433px){
+    .footer-container p{
+        font-size:0.6rem;
+    }
 }
