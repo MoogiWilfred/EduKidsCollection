@@ -1,0 +1,202 @@
+
+.notification-bar{
+    height:14vh;
+    background-color: black;
+    position: sticky;
+    top: 0; 
+    width: 100%;
+}
+.edukids {
+    height:6vh;
+    display:flex;
+    justify-content:space-between;
+    padding: 10px 20px;
+ }
+
+
+
+.edukids h1 span {
+    display:inline-block;
+    letter-spacing: 5px;
+    transform: rotate(360deg);
+    animation:animate 5s linear infinite;
+}
+
+@keyframes animate{
+    0%{
+        transform:rotateY(360deg) scale(0.1)
+    }
+    5%{
+        transform:rotateY(360deg) scale(0.1)
+    }
+    40%{
+        transform:rotateX(0deg) scale(1)
+    }
+
+    60%{
+        transform:rotateX(0deg) scale(1)
+    }
+
+
+    95%{
+        transform:rotateY(360deg) scale(0.1)
+    }
+    
+    100%{
+        transform:rotateY(360deg) scale(0.1)
+    }
+}
+
+
+
+
+
+
+.bm-pl {
+	position: relative;
+	width: 4em; /* Further reduced size */
+	height: 4em; /* Further reduced size */
+}
+.bm-pl__blob {
+	animation: moveR 8s linear infinite;
+	border-radius: 50%;
+	mix-blend-mode: screen;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 3em; /* Further reduced size */
+	height: 3em; /* Further reduced size */
+}
+.bm-pl__blob--r {
+	background: hsl(3, 90%, 55%);
+}
+.bm-pl__blob--g {
+	animation-name: moveG;
+	background: hsl(113, 90%, 55%);
+}
+.bm-pl__blob--b {
+	animation-name: moveB;
+	background: hsl(223, 90%, 55%);
+}
+
+/* Adjusted Animation */
+@keyframes moveR {
+	from, to {
+		border-radius: 54% 79% 75% 58% / 70% 66% 71% 47%;
+		transform: translate(0, 0) rotate(-35deg) scale(0.6, 0.6); /* Smaller scale */
+	}
+	33% {
+		border-radius: 79% 43% 56% 67% / 58% 64% 61% 60%;
+		transform: translate(0.5em, 0) rotate(0) scale(0.5, 0.6); /* Smaller movement */
+	}
+	67% {
+		border-radius: 55% 77% 56% 67% / 58% 64% 61% 60%;
+		transform: translate(0.25em, -0.125em) rotate(0) scale(0.7, 0.6); /* Smaller movement */
+	}
+}
+@keyframes moveG {
+	from, to {
+		border-radius: 60% 59% 51% 58% / 69% 64% 52% 55%;
+		transform: translate(0.5em, 0.25em) rotate(45deg) scale(0.6, 0.6); /* Smaller scale */
+	}
+	33% {
+		border-radius: 51% 95% 72% 59% / 75% 98% 54% 75%;
+		transform: translate(0, 0.125em) rotate(0) scale(0.5, 0.5); /* Smaller movement */
+	}
+	67% {
+		border-radius: 74% 85% 63% 87% / 81% 100% 62% 82%;
+		transform: translate(0.25em, 0.5em) rotate(0) scale(0.4, 0.5); /* Smaller movement */
+	}
+}
+@keyframes moveB {
+	from, to {
+		border-radius: 52% 59% 50% 58% / 56% 80% 40% 59%;
+		transform: translate(0.375em, 0.75em) rotate(0) scale(0.5, 0.5); /* Smaller scale */
+	}
+	25% {
+		border-radius: 71% 58% 100% 43% / 68% 53% 85% 68%;
+		transform: translate(-0.125em, 0.75em) rotate(10deg) scale(0.4, 0.5); /* Smaller movement */
+	}
+	50% {
+		border-radius: 99% 62% 87% 69% / 93% 92% 79% 75%;
+		transform: translate(0.5em, 0.5em) rotate(0) scale(0.35, 0.35); /* Smaller movement */
+	}
+	75% {
+		border-radius: 78% 98% 100% 73% / 75% 76% 100% 91%;
+		transform: translate(0.875em, 0.5em) rotate(0) scale(0.5, 0.5); /* Smaller movement */
+	}
+}
+
+
+span{
+    font-size:40px;
+  }
+  
+  /* Letter Colors */
+  .e, .your{
+    color: #4285F4;
+  }
+  
+  .d1, .one {
+    color: #EA4335;
+  }
+  
+  .u ,.stop {
+    color: #FBBC05;
+  }
+  
+  .k, .shop{
+    color: #34A853;
+  }
+  
+  .i , .for{
+    color: #F4B400;
+  }
+  
+  .d , .kids{
+    color: #9C27B0;
+  }
+  
+  .s, .stationery {
+    color: #FF6F61;
+  }
+
+  .info p span{
+    font-size:20px;
+    text-align: center;
+
+  }
+  .info{
+    
+    text-align: center;
+    display:flex;
+    justify-content:center;
+  }
+
+
+ 
+
+  
+
+
+  @media (max-width: 350px) {
+    span{
+      font-size:10px;
+    }
+    
+  .info p span{
+    font-size:10px;
+    text-align: center;
+
+  }}
+
+  
+
+  @media (max-width: 745px) {
+    span{
+      font-size:20px;
+    }
+    
+ 
+
+  }
