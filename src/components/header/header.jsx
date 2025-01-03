@@ -37,7 +37,7 @@ function header() {
 <div className='popup-image-right' ></div>
 
 <div className='contact'>
-<h1>CALL US:</h1> 
+<h1>CALL US NOW:</h1> 
 <p>+254 778 188 922</p>
 
   </div>
