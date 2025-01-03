@@ -1,91 +1,186 @@
 .header-container{
-    max-width: 1200px;
-    margin: 0 auto; 
-    overflow: hidden;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap:20px;
-}
-
-.popup-image  {
-  height: 400px;
-    width:100%;
-    width:600px;
-}
-.left{
-  display:flex;
-  flex-direction:column;
-  gap:20px;
-  margin-top:0px;
-}
-.popup-image-left{
-  height: 190px;
-    width:100%;
-    width:280px;
-}
-
-
-.ads{
+  max-width: 1200px;
+  margin: 0 auto; 
+  overflow: hidden;
   position: relative;
-  height: 190px;
-  width:100%;
-  width:280px;
-  background-image: url('../../assets/H4.png'); 
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  color:white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:20px;
+ 
+}
+.popup-image {
+height: 400px;
+width: 50%;
+}
+
+.popup-left{
+ height: 400px;
+  width:25%;
+ background-color: #f1f1f1;
+ text-align: center;
+
+}
+
+.new-shops{
+height: 300px;
+}
+.popup-left h4{
+margin-top: 2vh;
+background-color:rgb(236, 4, 4);
+}
+
+.popup-left ul{
+list-style-type: none;
+padding: 5px;
+margin: 5px;
+}
+
+.popup-left li{
+
+margin: 2px;
+
+
+}
+.popup-right{
+ height: 400px;
+  width:25%;
+ background-color: #f1f1f1;
+ display: flex;
+ flex-direction: column;
+ text-align: center;
+
 }
 .popup-image-right{
-  height: 400px;
-    width:100%;
-    width:280px;
+height: 300px;
+width:100%;
+background-size: cover; 
+background-position: center; 
+background-repeat: no-repeat;
+animation: slide 10s linear infinite;
 }
+.contact{
+height: 100px;
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+background-color:rgb(32, 28, 28);
+}
+.advert{
+height: 100px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color:rgb(32, 28, 28);
+}
+.advert p{
+font-size: 1em;
+color: red;
+margin: 0;
+color: white;
+margin-bottom:5vh;
+width:100%;
+}
+
+.text-advert > span{
+postion: relative;
+display: inline-block;
+height: 0.5em;
+vertical-align: bottom;
+overflow: hidden;
+
+
+}
+p > span > span{
+display:block;
+animation:animateAd 10s infinite ease;
+font-size: 0.3em;
+}
+
+@keyframes animateAd{
+0%{
+  transform: translateY(0%);
+}
+15%{
+  transform: translateY(0%);
+}
+25%{
+  transform: translateY(-100%);
+}
+40%{
+  transform: translateY(-100%);
+}
+50%{
+  transform: translateY(-200%);
+}
+65%{
+  transform: translateY(-200%);
+}
+75%{
+  transform: translateY(-300%);
+}
+90%{
+  transform: translateY(-300%);
+}
+100%{
+  transform: translateY(-400%);
+}
+}
+
+@keyframes slide {
+0% {
+  background-image: url('../../assets/H1.jpg');
+}
+25% {
+  background-image: url('../../assets/H1.jpg');
+}
+26% {
+  background-image: url('../../assets/H2.jpg');
+}
+50% {
+  background-image: url('../../assets/H2.jpg');
+}
+51% {
+  background-image: url('../../assets/H4.png');
+}
+75% {
+  background-image: url('../../assets/H4.png');
+}
+76% {
+  background-image: url('../../assets/H3.jpg');
+}
+100% {
+  background-image: url('../../assets/H3.jpg');
+}
+}
+
 @media (max-width: 320px) {
-  .header-container{
-    margin: 0 auto; 
-    overflow: hidden;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap:2px;
+.header-container{
+  margin: 0 auto; 
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:2px;
 }
 
 .popup-image  {
-  height: 400px;
-    width:100%;
-    width:600px;
+height: 400px;
+  width:100%;
+  width:600px;
 }
-.left{
-  display:flex;
-  flex-direction:column;
-  gap:20px;
-  margin-top:0px;
-}
+
 .popup-image-left{
-  height: 190px;
-    width:100%;
-    width:280px;
-}
 
-
-.ads{
-  position: relative;
-  height: 190px;
   width:100%;
   width:280px;
-  background-image: url('../../assets/H4.png'); 
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  color:white;
 }
+
 .popup-image-right{
-  height: 400px;
-    width:100%;
-    width:280px;
+
+  width:100%;
+  width:280px;
 }
-  }
+}
