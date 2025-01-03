@@ -13,10 +13,10 @@ const {listitem,categoryAItems, categoryBItems,}= useContext(StoreContex)
 
   
 return (
-  <div className="food-display" id="food-display">
+  <div className="item-display" id="item-display">
   <div className="category-a">
    <div className="category"><p>New Arrivals | Live Now</p></div>
-    <div className="food-display-list">
+    <div className="item-display-list">
      
       {categoryAItems.map((item, index) => {
        
@@ -38,7 +38,7 @@ return (
 
     <div className="category-b">
     <div className="category"><p>Flash Sales | Live Now</p></div>
-    <div className="food-display-list">
+    <div className="item-display-list">
      
       {categoryBItems.map((item, index) => {
        
@@ -61,7 +61,7 @@ return (
 
     <div className="daily-finds">
     <div className="category"><p>Daily Finds </p></div>
-    <div className="food-display-list">
+    <div className="item-display-list">
      
       {listitem.map((item, index) => {
        

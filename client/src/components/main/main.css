@@ -1,4 +1,4 @@
-.food-display {
+.item-display {
   margin:auto;
   max-width:1200px;
   display:flex;
@@ -30,7 +30,7 @@
   align-items: center;   
  }
   
-  .food-display-list {
+  .item-display-list {
     display: flex;
     flex-wrap: wrap;
     margin-top: 10px;
@@ -39,10 +39,6 @@
     
   }
   
-  
-
-
-  /* Mobile Devices */
 @media (max-width: 768px) {
  
   .category p{

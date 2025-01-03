@@ -38,7 +38,7 @@ const categoryA = ({ id, name, price, description, image }) => {
           </div>
         )}
         <div className="item-info">
-          <div className="food-item-name-rating">
+          <div className="item-name-rating">
             <p>{name}</p>
             <img src={assets.rating_stars} alt=""></img>
           </div>

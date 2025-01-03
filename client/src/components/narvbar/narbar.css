@@ -12,14 +12,14 @@
     
   }
   
-  /* Logo Image */
+ 
   .logo img {
     height: 60px;
     width: 60px;
     border-radius: 50%;
   }
   
-  /* Basket and Login */
+
   .basket-login {
     display: flex;
     justify-content: space-between;
@@ -32,7 +32,7 @@
     font-size:200%;
   }
   
-  /* Letter Colors */
+
   .e {
     color: #4285F4;
   }
